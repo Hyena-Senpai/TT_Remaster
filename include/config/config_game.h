@@ -74,21 +74,21 @@
 /**
  * Adds support for multiple languages to the game.
  */
-// #define MULTILANG
+#define MULTILANG
 
 /**
  * Toggles for individual languages. Only works when MULTILANG is enabled.
  * Note that English will always be enabled.
  */
-#define ENABLE_FRENCH
-#define ENABLE_GERMAN
-// #define ENABLE_JAPANESE
+//#define ENABLE_FRENCH
+//#define ENABLE_GERMAN
+#define ENABLE_JAPANESE
 
 /**
  * This define enables support for Japanese characters even when multilang or Japanese is not enabled.
  * Requires a Japanese baserom.
  */
-// #define JAPANESE_CHARACTERS
+#define JAPANESE_CHARACTERS
 
 /**
  * Prevents infinite death loops by always restoring Mario's health when he's warped to any kind of warp while dead.
